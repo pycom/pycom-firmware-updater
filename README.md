@@ -31,6 +31,7 @@
 
 
 ##Common Problems
+
 If you have the `[Errno 1] Operation not permitted: '/tmp/fwUpdater.pem'` 
 error log do next:
 `sudo rm -rf /tmp/snap.pycom-firmware-updater/tmp/fwUpdater.pem`
