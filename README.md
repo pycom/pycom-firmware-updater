@@ -1,6 +1,30 @@
-# Snap
+#Mac
 
 ##Installation
+
+1. Download the `FwUpdater-mac.pkg` from [Releases page](https://github.com/pycom/pycom-firmware-updater/releases).
+2. Run the downloaded `.pkg` file.
+3. If you already have the old version of `pycom-firmware-updater` just accept all alerts.
+____
+
+#Windows
+
+##Installation
+
+1. Download the `FwUpdater-windows.exe` from [Releases page](https://github.com/pycom/pycom-firmware-updater/releases).
+2. Run the downloaded `.exe` file.
+____
+
+#Ubuntu
+
+##Installation from archive
+
+1. Download the FwUpdater-debian.tar.gz from [Releases page](https://github.com/pycom/pycom-firmware-updater/releases).
+2. Extract archive to some directory.
+3. Open the terminal.
+4. Run `./create-service.sh {path_to_dir_with_extracted_files}`. The path should be absolute(from your /home/ directory).
+
+## Snap Installation
 
 1. `sudo snap install pycom-firmware-updater`
 
@@ -29,6 +53,7 @@
    the raw-usb and serial-port lines shouldn't be '-'.
 8. run the app by typing `pycom-firmware-updater`.
 
+____
 
 ##Common Problems
 
