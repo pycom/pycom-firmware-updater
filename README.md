@@ -1,23 +1,23 @@
-#Mac
+# Mac
 
-##Installation
+## Installation
 
 1. Download the `FwUpdater-mac.pkg` from [Releases page](https://github.com/pycom/pycom-firmware-updater/releases).
 2. Run the downloaded `.pkg` file.
 3. If you already have the old version of `pycom-firmware-updater` just accept all alerts.
 ____
 
-#Windows
+# Windows
 
-##Installation
+## Installation
 
 1. Download the `FwUpdater-windows.exe` from [Releases page](https://github.com/pycom/pycom-firmware-updater/releases).
 2. Run the downloaded `.exe` file.
 ____
 
-#Ubuntu
+# Ubuntu
 
-##Installation from archive
+## Installation from archive
 
 1. Download the FwUpdater-debian.tar.gz from [Releases page](https://github.com/pycom/pycom-firmware-updater/releases).
 2. Extract archive to some directory.
@@ -55,7 +55,7 @@ ____
 
 ____
 
-##Common Problems
+## Common Problems
 
 If you have the `[Errno 1] Operation not permitted: '/tmp/fwUpdater.pem'` 
 error log do next:
